@@ -1,6 +1,6 @@
 {
   "name": "callback-data-bus",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Library that will manage multiple callbacks and data using keys, provides for non-dupliate retreival and offers cacheing",
   "main": "callbackDataBus.js",
   "scripts": {
