@@ -1,0 +1,26 @@
+{
+  "name": "callback-data-bus",
+  "version": "1.0.3",
+  "description": "Library that will manage multiple callbacks and data using keys, provides for non-dupliate retreival and offers cacheing",
+  "main": "callbackDataBus.js",
+  "scripts": {
+    "test": "NODE_ENV='test' mocha test/callback-data-bus_test.js --reporter spec"
+  },
+  "keywords": [
+    "cache",
+    "databus"
+  ],
+  "author": "Tim Villanueva, Copyright 2016 Ask.com",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "assert": "^1.1.1"
+  },
+  "dependencies": {
+    "grunt": "0.4.5",
+    "grunt-cli": "0.1.13",
+    "grunt-config-dir": "0.3.2",
+    "grunt-contrib-jshint": "0.6.5",
+    "grunt-mocha-cli": "1.9.0"
+  }
+}
