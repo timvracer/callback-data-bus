@@ -6,6 +6,10 @@
   "scripts": {
     "test": "NODE_ENV='test' mocha test/callback-data-bus_test.js --reporter spec"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timvracer/callback-data-bus"
+  },
   "keywords": [
     "cache",
     "databus"
